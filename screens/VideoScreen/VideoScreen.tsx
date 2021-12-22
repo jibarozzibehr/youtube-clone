@@ -36,7 +36,7 @@ const VideoScreen = () => {
                 <View style={styles.videoInfoContainer}>
                     <Text style={styles.tags}>{video.tags}</Text>
                     <Text style={styles.title}>{video.title}</Text>
-                    <Text style={styles.subtitle}>{video.user.name} {viewsString} {video.createdAt}</Text>
+                    <Text style={styles.subtitle}>{video.user.name} • {viewsString} • {video.createdAt}</Text>
                 </View>
 
                 {/* Action list */}
